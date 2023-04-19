@@ -145,12 +145,12 @@ function operadoresLogicos(num1, num2, num3) {
    if (num1 > num2 && num1 > num3 && num1 > 0)
    {
       return "Numero 1 es mayor y positivo";}
-       else if (num1 || num2 || num3 > 0) 
+       else if (num1 || num2 || num3 > 0)
       {
          return "Hay negativos";}
           else if (num3>num1 && num3>num2){
             num3=num3+1;
-            return num3                       
+            return num3;                       
          } else if (num1 === 0 && num2 === 0 && num3 ===0){
             return "Error"
          }
@@ -176,7 +176,7 @@ function esPrimo(num) {
       }
          if(cumple === true){
             return true;}
-            else {return false;
+            else { return false;
             }
          }
       }
